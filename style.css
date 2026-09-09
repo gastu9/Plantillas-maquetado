@@ -1,12 +1,17 @@
 *{
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
 }
 body{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 /*------------------------------------------------------------------------------*/
+.todas-pantallas{
+    height: 100%;
+    width: 100%;
+}
 .primera-pantalla{
     height: 30%;
     width: 100vw;
@@ -17,7 +22,6 @@ body{
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 1rem;
 
     }
     .buscador{
@@ -27,17 +31,19 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+
+        margin-top: 0.8rem;
     }
     .barra-busqueda{
         background-color: white;
         height: 2rem;
         width: 85%;
-    
     }
     .buscar{
         background-color: black;
         height: 5rem;
         width: 7%;
+        margin-top: 0.8rem;
     }
     
     
@@ -56,9 +62,66 @@ body{
         }
     }
 }
+
+
+
+
+
 .segunda-pantalla{
     background-color: lightblue;
     width: 100vw;
-    display: flex;
-    height:30%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+    height:35%;
+   
+    .espaciocuadrado-info{
+        height: 100%;
+        width: 100%;
+        background-color: lightblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .cuadrado-info{
+        background-color: blue;
+        height: 70%;
+        width:  15rem;    
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        .lista{
+            height: 50%;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            margin-top: 1rem;
+            align-items: center;
+            .texto-cuadrado{
+                background-color: white;
+                width: 70%;
+                height: 1rem;
+            }
+        }
+        
+        }
+    }
+    .espacioinfo{
+        height: 100%;
+        width: 100%;
+        background-color: grey;
+    }
+
+}
+
+
+
+
+
+
+
+.tercera-pantalla{
+    background-color: red;
+    width: 100vw;
+    height: 35%;
 }
