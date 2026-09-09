@@ -188,7 +188,7 @@ body{
                 }
             }
             
-            .pantalla-tres-cuadrado{
+            .pantalla-tres-cuadrado-1{
                 background-color:red;
                 width: 15rem;
                 height: 60%;
@@ -201,6 +201,70 @@ body{
                     width: 70%;
                     height: 1.4rem;
                     background-color: brown;
+                    margin-top: 1rem;
+                }
+                .texto-cuadrado-p-tres{
+                    margin-left: 2rem;
+    
+                    background-color: white;
+                    height: 0.6rem;
+                    width: 70%;
+                }
+                .texto-cuadrado-p-tres-corto{
+                    margin-left: 2rem;
+                    width: 50%;
+                    height: 0.6rem;
+                    background-color: white;
+                    margin-bottom: 1.6rem;
+    
+                }
+    
+            }
+            .pantalla-tres-cuadrado-2{
+                background-color:blue;
+                width: 15rem;
+                height: 60%;
+                margin-top: 1rem;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                .titulo-cuadrado-p-tres{                                
+                    margin-left: 2rem;
+                    width: 70%;
+                    height: 1.4rem;
+                    background-color: rgb(86, 86, 255);
+                    margin-top: 1rem;
+                }
+                .texto-cuadrado-p-tres{
+                    margin-left: 2rem;
+    
+                    background-color: white;
+                    height: 0.6rem;
+                    width: 70%;
+                }
+                .texto-cuadrado-p-tres-corto{
+                    margin-left: 2rem;
+                    width: 50%;
+                    height: 0.6rem;
+                    background-color: white;
+                    margin-bottom: 1.6rem;
+    
+                }
+    
+            }
+            .pantalla-tres-cuadrado-3{
+                background-color:yellow;
+                width: 15rem;
+                height: 60%;
+                margin-top: 1rem;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                .titulo-cuadrado-p-tres{                                
+                    margin-left: 2rem;
+                    width: 70%;
+                    height: 1.4rem;
+                    background-color: rgb(255, 255, 136);
                     margin-top: 1rem;
                 }
                 .texto-cuadrado-p-tres{
